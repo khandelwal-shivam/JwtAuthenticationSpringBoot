@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+// The only deviation in this project is that we are not connect to live user resource or database
 @RestController
 public class HomeController {
     @Autowired
